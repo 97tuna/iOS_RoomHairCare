@@ -34,7 +34,7 @@ class JoinViewController: UIViewController {
     
     lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
-        titleLabel.text = "방구석 Dentist 회원가입"
+        titleLabel.text = "방구석 HairCare 회원가입"
         titleLabel.textColor = UIColor(named: "Brown")!
         titleLabel.font = UIFont(name: "GmarketSansBold", size: CGFloat(17))
         return titleLabel

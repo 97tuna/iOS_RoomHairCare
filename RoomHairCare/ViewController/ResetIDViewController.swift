@@ -12,7 +12,7 @@ class ResetIDViewController: UIViewController {
 
     lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
-        titleLabel.text = "방구석 Dentist 비밀번호 찾기"
+        titleLabel.text = "방구석 HairCare 비밀번호 찾기"
         titleLabel.textColor = UIColor(named: "Brown")!
         titleLabel.font = UIFont(name: "GmarketSansBold", size: CGFloat(17))
         return titleLabel

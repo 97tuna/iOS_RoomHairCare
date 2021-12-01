@@ -18,7 +18,7 @@ class ChartViewController: UIViewController {
     
     lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
-        titleLabel.text = "최근 7일 충치 개수 분석"
+        titleLabel.text = "최근 7일 탈모 상태 분석"
         titleLabel.textColor = UIColor(named: "Brown")!
         titleLabel.font = UIFont(name: "GmarketSansBold", size: CGFloat(17))
         return titleLabel
@@ -108,7 +108,7 @@ class ChartViewController: UIViewController {
             dataEntries.append(dataEntry)
         }
 
-        let chartDataSet = BarChartDataSet(entries: dataEntries, label: "충치 개수")
+        let chartDataSet = BarChartDataSet(entries: dataEntries, label: "탈모 상태")
         chartDataSet.barBorderColor = UIColor(named: "SignatureBlack")!
         chartDataSet.valueColors = ChartColorTemplates.colorful()
         chartDataSet.valueFont = UIFont(name: "GmarketSansBold", size: CGFloat(17))!
